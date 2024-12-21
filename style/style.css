@@ -1,3 +1,25 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.logo {
+
+}
+
+.headerLinks {
+    display: flex;
+    gap: 25px
+}
+
 .rImage {
     width: 400px;
 }
