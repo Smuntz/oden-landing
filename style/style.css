@@ -94,7 +94,7 @@ h1 {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .quote .quote1 {
@@ -108,10 +108,44 @@ h1 {
 
 .quote .quote2 {
     width: 820px;
-    align-self:center;
+    align-self: center;
     text-align: end;
     font-size: 24px;
     font-weight: bold;
     padding-right: 80px;
     margin: 0 0 24px 0;
+}
+
+.section4 {
+    margin: 75px 300px;
+}
+
+.blueBox {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 20px;
+}
+
+.blueBox button {
+
+    padding: 0px 28px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-color: #f9faf8;
+    font-weight: bold;
+    height: 30px;
+}
+
+.blueBox h3 {
+    margin: 19px 0 3px 0;
+}
+.blueBox p {
+    margin: 0 0 19px 0;
+    color: #e0e5fb;
 }
