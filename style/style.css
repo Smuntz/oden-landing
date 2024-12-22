@@ -89,3 +89,29 @@ h1 {
     margin: 5px 0 100px 0;
     color: rgb(96, 96, 96);
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote .quote1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 820px;
+    align-self: center;
+    margin: 36px 0 0 0;
+}
+
+.quote .quote2 {
+    width: 820px;
+    align-self:center;
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 80px;
+    margin: 0 0 24px 0;
+}
